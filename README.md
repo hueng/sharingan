@@ -1,5 +1,6 @@
 # Sharingan
 
+[![Build Status](https://www.travis-ci.org/hueng/sharingan.svg?branch=master)](https://www.travis-ci.org/hueng/sharingan)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/didi/sharingan/blob/master/LICENSE)
 
 Sharingan，中文名：写轮眼，是漫画《火影忍者》中的一种瞳术，具有复制、幻术等能力，在幻术世界里，一切因素包括时间，地点，质量等，都由施术者掌控。

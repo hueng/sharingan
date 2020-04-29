@@ -172,7 +172,7 @@ func MockTCPConnWrite() {
 
 		// 只处理outbound请求
 		if isInBoundFD(conn.GetSysFD()) {
-			return conn.Write2(b)
+			return conn.Write3(b)
 		}
 
 		// traceID标识
