@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl https://raw.githubusercontent.com/didi/sharingan-go/recorder/install/go1.13 | sh
+curl -s https://raw.githubusercontent.com/didi/sharingan-go/recorder/install/go1.13 | sh
 export GOROOT=/tmp/recorder-go1.13
 export PATH=$GOROOT/bin:$PATH
 

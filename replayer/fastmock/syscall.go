@@ -172,7 +172,7 @@ func MockTCPConnWrite() {
 
 		// 只处理outbound请求
 		if isInBoundFD(conn.GetSysFD()) {
-			return conn.Write3(b)
+			return conn.Write2(b)
 		}
 
 		// traceID标识
@@ -279,4 +279,4 @@ func gcGlobalhreads() int {
 
 	globalThreads = newMap
 	return expiredThreadsCount
-}
+i
