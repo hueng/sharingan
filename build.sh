@@ -5,9 +5,10 @@ info_msg="\033[;32m[INFO]\033[0m\t"
 
 function build(){
     echo "${info_msg}-> install go1.13"
-    curl -s https://raw.githubusercontent.com/didi/sharingan-go/recorder/install/go1.13 | sh  > /de
+    curl -s https://raw.githubusercontent.com/didi/sharingan-go/recorder/install/go1.13 | sh > /dev/null 2>&1
     export GOROOT=/tmp/recorder-go1.13
     export PATH=$GOROOT/bin:$PATH
+    export GO111MODULE=on
 
     cd ${workspace}/example
     echo "${info_msg}-> build recorder"
