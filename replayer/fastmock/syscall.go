@@ -279,4 +279,4 @@ func gcGlobalhreads() int {
 
 	globalThreads = newMap
 	return expiredThreadsCount
-i
+}
